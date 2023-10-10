@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MonReader WebApp</title>
+	</head>
+	
+	<body style="text-align:center;font-family:verdana;">
+		<center><h1>Image classification Model</h1></center>
+		
+		<p>This model predicts whether the given image contains an action of flipping a page or not.</p>
+		
+		<div>
+		<img src="{{url_for('static', filename='images/' + user_image)}}" alt="User Image" style="width:150px;height:250px">
+		<p>The image belongs to the class: {{classes}}<p>
+		</div>
+	</body>
+
+</html>

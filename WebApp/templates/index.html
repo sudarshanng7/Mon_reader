@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MonReader WebApp</title>
+		<style>
+			.css-button{
+				color:#fff;
+				background-color:#449d44;
+				padding:5px 10px;
+				font-size:15px;
+				line-height:1.3333333;
+				border-radius:6px
+			}
+		</style>
+	</head>
+	
+	<body style="text-align:center;font-family:verdana;">
+		<center><h1>Image classification Model</h1></center>
+		
+		<p>This model predicts whether the given image contains an action of flipping a page or not.</p>
+		
+		<div>
+			<form action="/predict" method="post" enctype="multipart/form-data">
+				<label for="myfile">Select a file </label>
+				<input type="file" id="myfile" name="myfile"><br><br>
+				<input type="submit" class="css-button" value="Predict">
+			</form>
+		</div>
+		<div>
+		<p style="font-family:verdana; color:red">{{error}}</p>
+		</div>
+	</body>
+
+</html>
