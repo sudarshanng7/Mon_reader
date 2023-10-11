@@ -11,8 +11,8 @@ The data belongs to an organization that develops AI and computer vision solutio
 
 Here is a quick look at some of the images from the dataset:
 
-<img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/2750bc2a-a9b1-42ae-91e4-fc86d8df3f29" width="400" height="200">
-<img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/c5fbbd73-8127-4afc-adc9-eab4da26ebc6" width="400" height="200">
+<img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/2750bc2a-a9b1-42ae-91e4-fc86d8df3f29" width="450" height="300">
+<img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/c5fbbd73-8127-4afc-adc9-eab4da26ebc6" width="450" height="300">
 
 ### Goals:
 Predict if the page is being flipped using a single image. Next goal is to predict if a given sequence of images contains an action of flipping.
