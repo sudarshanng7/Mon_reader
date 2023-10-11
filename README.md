@@ -36,7 +36,7 @@ The Sequential model consists of three convolution blocks (tf.keras.layers.Conv2
 Optimizer: Adam
 Epochs: 20 The number of epochs is set to 20, but the training stabilizes at around 10th epoch
 
-##### Results:
+#### Results:
 
 <img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/04848731-f403-45e5-accf-4f4fc1b307bc">
 
@@ -56,7 +56,7 @@ We don't re-train the entire model in this step. The base convolutional network 
 
 We instantiated a InceptionV3 model pre-loaded with weights and freezing the convolutional base layers. In the next step, we added Dense layers to convert these features into a single prediction per image.
 
-##### Results:
+#### Results:
 
 ![loss_accuracy_plot_inception](https://github.com/sudarshanng7/Mon_reader/assets/47222625/c1af56c6-f94b-48f8-b73e-c292fe62e3f0)
 
@@ -94,7 +94,9 @@ This repository contains a small web application developed using Flask, Python, 
 - Flask
 - TensorFlow
 
-$ ./tree-md .
+### Repository Structure
+
+For a detailed view of the repository structure, please refer to the [Repository Structure](repository_structure.md) document.
 
 #### Conclusion
 
