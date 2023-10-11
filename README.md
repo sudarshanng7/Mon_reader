@@ -38,7 +38,7 @@ Epochs: 20 The number of epochs is set to 20, but the training stabilizes at aro
 
 ##### Results:
 
-![loss_accuracy_plot_baseline](https://github.com/sudarshanng7/Mon_reader/assets/47222625/f5c2a843-6bd7-4fa8-9e59-1f102cc7ec1a)
+<img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/04848731-f403-45e5-accf-4f4fc1b307bc">
 
 | Metrics | Score |
 | --- | --- |
