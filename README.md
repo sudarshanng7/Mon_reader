@@ -25,7 +25,7 @@ Predict if the page is being flipped using a single image. Next goal is to predi
 
 Evaluate model performance based on F1 score and accuracy.
 
-### Approach
+### Approach:
 
 As the images have been nicely structured and presented, we simply constructed a data pipeline to import the images from the folders. We applied image augmentation technique to avoid overfitting and improve the model's performance. The data is loaded into the tensorflow's dataset class with a batch size of 32 images. 
 We tried out two models for this project. One being a CNN model built from scratch and the other is a pretrained EfficientNet model.
@@ -36,7 +36,7 @@ The Sequential model consists of three convolution blocks (tf.keras.layers.Conv2
 Optimizer: Adam
 Epochs: 20 The number of epochs is set to 20, but the training stabilizes at around 10th epoch
 
-##### Results
+##### Results:
 
 ![loss_accuracy_plot_baseline](https://github.com/sudarshanng7/Mon_reader/assets/47222625/f5c2a843-6bd7-4fa8-9e59-1f102cc7ec1a)
 
@@ -56,7 +56,7 @@ We don't re-train the entire model in this step. The base convolutional network 
 
 We instantiated a InceptionV3 model pre-loaded with weights and freezing the convolutional base layers. In the next step, we added Dense layers to convert these features into a single prediction per image.
 
-##### Results
+##### Results:
 
 ![loss_accuracy_plot_inception](https://github.com/sudarshanng7/Mon_reader/assets/47222625/c1af56c6-f94b-48f8-b73e-c292fe62e3f0)
 
@@ -68,7 +68,7 @@ We instantiated a InceptionV3 model pre-loaded with weights and freezing the con
 
 ### MonReader WebApp
 
-#### Description
+#### Description:
 
 This repository contains a small web application developed using Flask, Python, and TensorFlow. The web app allows users to interact with a machine learning model that predicts whether a page is being flipped or not.
 
@@ -81,6 +81,7 @@ This repository contains a small web application developed using Flask, Python, 
 5. Open your web browser and visit `http://localhost:5000`
 6. Additionally, a Dockerfile has been added to create a containerized version of the webapp. Build the image using `docker build -f Dockerfile -t imagename`
 7. Deploy the application using `docker run -p 5000:5000 imagename`
+8. Open your web browser and visit `http://localhost:5000`
 
 #### Screenshots
 
