@@ -36,7 +36,7 @@ The Sequential model consists of three convolution blocks (tf.keras.layers.Conv2
 Optimizer: Adam
 Epochs: 20 The number of epochs is set to 20, but the training stabilizes at around 10th epoch
 
-##### Results  
+##### Results
 
 ![loss_accuracy_plot_baseline](https://github.com/sudarshanng7/Mon_reader/assets/47222625/f5c2a843-6bd7-4fa8-9e59-1f102cc7ec1a)
 
@@ -55,6 +55,7 @@ Here, we will use the representations learned by a previous network to extract m
 We don't re-train the entire model in this step. The base convolutional network already contains features that are generically useful for classifying pictures. However, the final, classification part of the pretrained model is specific to the original classification task, and subsequently specific to the set of classes on which the model was trained.
 
 We instantiated a InceptionV3 model pre-loaded with weights and freezing the convolutional base layers. In the next step, we added Dense layers to convert these features into a single prediction per image.
+
 ##### Results
 
 ![loss_accuracy_plot_inception](https://github.com/sudarshanng7/Mon_reader/assets/47222625/c1af56c6-f94b-48f8-b73e-c292fe62e3f0)
@@ -65,7 +66,7 @@ We instantiated a InceptionV3 model pre-loaded with weights and freezing the con
 | Test Accuracy | 98.85% |
 | F1 Score | 0.99 |
 
-### MonReader WbbApp
+### MonReader WebApp
 
 #### Description
 
@@ -93,4 +94,5 @@ This repository contains a small web application developed using Flask, Python, 
 - TensorFlow
 
 #### Conclusion
+
 Both Baseline CNN model and InceptionV3 performed extremely well in predicting whether or not a page is being flipped. We are able to acheive accuracy scores closer to 99% in classifying Test images with both these models. Despite the high accuracy the models were able to achieve on the provided dataset, when tested with images from internet which does not resemble the characteristics of our data source, its performance decreases significantly as it tends to classify everything to be flipping. To resolve this issue, we plan on augmenting the training set with images from different sources in the future.
