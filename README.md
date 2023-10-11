@@ -83,8 +83,8 @@ This repository contains a small web application developed using Flask, Python, 
 
 #### Screenshots
 
-<img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/18bcf727-0648-4511-a61b-8f9da3f5448a" width="450" height="300">
-<img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/1ca92257-9ee4-4a85-8964-c70f7d2896f0" width="450" height="300">
+<img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/18bcf727-0648-4511-a61b-8f9da3f5448a">
+<img src="https://github.com/sudarshanng7/Mon_reader/assets/47222625/1ca92257-9ee4-4a85-8964-c70f7d2896f0">
 
 #### Technologies Used
 
