@@ -31,9 +31,11 @@ Epochs: 20 The number of epochs is set to 20, but the training stabilizes at aro
 ##### Results
 ![loss_accuracy_plot_baseline](https://github.com/sudarshanng7/Mon_reader/assets/47222625/f5c2a843-6bd7-4fa8-9e59-1f102cc7ec1a)
 
-Training Accuracy: 99.58%  
-Test Accuracy: 98.9%  
-F1 Score: 0.99
+| Metrics | Score |
+| --- | --- |
+| Training Accuracy | 99.58% |
+| Test Accuracy | 98.9% |
+| F1 Score | 0.99 |
 
 #### Model 2: InceptionV3
 Adapted from: https://www.tensorflow.org/api_docs/python/tf/keras/applications/inception_v3/InceptionV3
@@ -46,7 +48,9 @@ We instantiated a InceptionV3 model pre-loaded with weights and freezing the con
 ##### Results
 ![loss_accuracy_plot_inception](https://github.com/sudarshanng7/Mon_reader/assets/47222625/c1af56c6-f94b-48f8-b73e-c292fe62e3f0)
 
-Training Accuracy: 100%  
-Test Accuracy: 98.85%  
-F1 Score: 0.99
+| Metrics | Score |
+| --- | --- |
+| Training Accuracy | 100%  |
+| Test Accuracy | 98.85% |
+| F1 Score | 0.99 |
 
