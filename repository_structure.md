@@ -17,4 +17,4 @@ Here's the structure of this repository:
   - **cnn_classifier** - Trained model saved at a checkpoint.
 - **MonReader.ipynb** - This Jupyter Notebook serves as the central component for the monreader image classification task. It's designed to help users understand, train, and evaluate image classification models on a given dataset. The notebook contains code, explanations, and visualizations related to the image classification process. 
 - **MonReader_Sequence.ipynb** -  The notebook contains code, explanations, and visualizations related to the image sequence classification process.
-- **README.md** - This file.
+- **README.md** - The project's readme file.
