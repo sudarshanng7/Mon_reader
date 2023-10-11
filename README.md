@@ -98,6 +98,6 @@ This repository contains a small web application developed using Flask, Python, 
 
 For a detailed view of the repository structure, please refer to the [Repository Structure](repository_structure.md) document.
 
-#### Conclusion
+### Conclusion
 
 Both Baseline CNN model and InceptionV3 performed extremely well in predicting whether or not a page is being flipped. We are able to acheive accuracy scores closer to 99% in classifying Test images with both these models. Despite the high accuracy the models were able to achieve on the provided dataset, when tested with images from internet which does not resemble the characteristics of our data source, its performance decreases significantly as it tends to classify everything to be flipping. To resolve this issue, we plan on augmenting the training set with images from different sources in the future.
