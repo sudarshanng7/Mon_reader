@@ -28,7 +28,7 @@ We tried out two models for this project. One being a CNN model built from scrat
 The Sequential model consists of three convolution blocks (tf.keras.layers.Conv2D) with a max pooling layer (tf.keras.layers.MaxPooling2D) in each of them. There's a fully-connected layer (tf.keras.layers.Dense) with 64 units in the end, that is activated by a ReLU activation function ('relu').
 Optimizer: Adam
 Epochs: 20 The number of epochs is set to 20, but the training stabilizes at around 10th epoch
-##### Results
+##### Results  
 ![loss_accuracy_plot_baseline](https://github.com/sudarshanng7/Mon_reader/assets/47222625/f5c2a843-6bd7-4fa8-9e59-1f102cc7ec1a)
 
 | Metrics | Score |
