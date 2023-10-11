@@ -2,7 +2,7 @@
 
 Here's the structure of this repository:
 
-- **WebApp/** - This folder con
+- **WebApp/** - This folder contains code for the monreader web application
   - **models** - 
     - **cnn_classifier.h5** - Saved model
   - **static/**
