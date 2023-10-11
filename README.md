@@ -9,7 +9,8 @@ The data belongs to an organization that develops AI and computer vision solutio
 | Train Dataset | 2392 | 1162 | 1230 |
 | Test Dataset | 597 | 290 | 307 |
 
-Here is a quick look at some of the images from the dataset
+Here is a quick look at some of the images from the dataset:
+
 ![dataset](https://github.com/sudarshanng7/Mon_reader/assets/47222625/2750bc2a-a9b1-42ae-91e4-fc86d8df3f29) 
 ![dataset2](https://github.com/sudarshanng7/Mon_reader/assets/47222625/c5fbbd73-8127-4afc-adc9-eab4da26ebc6)
 
